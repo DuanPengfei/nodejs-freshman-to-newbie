@@ -127,5 +127,5 @@ function reqHandler(req, res) {
 http
     .createServer(reqHandler)
     .listen(PORT, function () {
-        console.log(`SimStatic server listen on: 0.0.0.0:${PROT}`);
+        console.log(`SimStatic server listen on: 0.0.0.0:${PORT}`);
     });
